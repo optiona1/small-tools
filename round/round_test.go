@@ -5,7 +5,7 @@ import (
     "strconv"
     "math"
 
-    "github.com/optiona1/assert"
+    "github.com/optiona1/small-tools/assert"
 )
 
 func TestRoundFixed(t *testing.T) {
