@@ -22,6 +22,6 @@ func ToHump(str string) string {
 	for i, ele := range temp {
 		temp[i] = strings.Title(ele)
 	}
-	temp_str := strings.Join(temp, "")
-	return temp_str
+	tempStr := strings.Join(temp, "")
+	return tempStr
 }
